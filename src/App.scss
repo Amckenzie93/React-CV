@@ -1,0 +1,35 @@
+.App{
+  background: #525659;
+  color:#fff;
+  padding:4em 0;
+}
+
+.two-column{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width:980px;
+  margin:auto;
+  -webkit-box-shadow: 0px 6px 10px 1px rgba(0,0,0,0.43);
+  -moz-box-shadow: 0px 6px 10px 1px rgba(0,0,0,0.43);
+  box-shadow: 0px 6px 10px 1px rgba(0,0,0,0.43);
+
+  .col{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    padding:2em;
+  }
+
+  .col:first-of-type{
+    max-width:300px;
+    background:#373b49;
+  }
+
+  .col:last-of-type{
+  background:#fff;
+  color:#000;
+  }
+}
