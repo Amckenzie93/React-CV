@@ -1,7 +1,7 @@
 {
   "name": "react-cv",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "author": "Adam Mckenzie",
   "license": "ISC",
   "dependencies": {
@@ -38,15 +38,8 @@
       "last 1 safari version"
     ]
   },
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
-  "main": "gulp.js",
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Amckenzie93/React-CV.git"
-  },
-  "bugs": {
-    "url": "https://github.com/Amckenzie93/React-CV/issues"
-  },
-  "homepage": "https://github.com/Amckenzie93/React-CV#readme"
+  }
 }
