@@ -1,35 +1,70 @@
-.App{
-  background: #525659;
-  color:#fff;
-  padding:4em 0;
+.App {
+    background: #525659;
+    color: #fff;
+    padding: 4em 0;
 }
 
-.two-column{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%;
-  max-width:980px;
-  margin:auto;
-  -webkit-box-shadow: 0px 6px 10px 1px rgba(0,0,0,0.43);
-  -moz-box-shadow: 0px 6px 10px 1px rgba(0,0,0,0.43);
-  box-shadow: 0px 6px 10px 1px rgba(0,0,0,0.43);
-
-  .col{
+.two-column {
     display: flex;
-    flex-direction: column;
-    flex-basis: 100%;
-    flex: 1;
-    padding:2em;
-  }
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 980px;
+    margin: auto;
+    overflow: hidden;
 
-  .col:first-of-type{
-    max-width:300px;
-    background:#373b49;
-  }
 
-  .col:last-of-type{
-  background:#fff;
-  color:#000;
-  }
+    .col {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        flex: 1;
+        padding: 2em;
+        position: relative;
+        -webkit-box-shadow: 0px 6px 10px 1px rgba(0,0,0,0.43);
+        -moz-box-shadow: 0px 6px 10px 1px rgba(0,0,0,0.43);
+        box-shadow: 0px 6px 10px 1px rgba(0,0,0,0.43);
+    }
+
+    aside{
+        max-width: 300px;
+        background: #373b49;
+        z-index: 10;
+        animation: slideUp 0.7s ease-in-out forwards;
+    }
+
+    main {
+        background: #fff;
+        color: #000;
+        z-index: 1;
+        opacity: 0;
+        animation-delay: 0.7s;
+        animation-name: slideRight;
+        animation-duration:.8s;
+        animation-fill-mode:forwards;
+    }
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(100vh);
+    }
+
+    to {
+        transform: translateY(0%);
+    }
+}
+
+@keyframes slideRight {
+    0% {
+        transform: translateX(-100vw);
+    }
+    30%{
+        opacity:1;
+    }
+
+    100% {
+        transform: translateY(0%);
+        opacity:1;
+    }
 }

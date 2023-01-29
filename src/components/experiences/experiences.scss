@@ -1,46 +1,65 @@
-.profile-experiences{
+.profile-experiences {
     margin-bottom:32px;
 
-    .heading{
+    .heading {
         text-transform: uppercase;
         border-bottom: 3px solid #000;
 
-        h2{
+        h2 {
             margin: 0 0 8px 0;
         }
     }
 
-    .profile-experiences-company{
-        .profile-experiences-company-heading{
+    .profile-experiences-company {
+        .profile-experiences-company-heading {
             padding-top: 20px;
-            p,a{
-                display:inline-block;        
-                margin-top:12px;
-                margin-bottom:12px;
-                font-size:18px;
-                &:first-of-type{
-                    &::after{
-                        display:inline;
-                        content:"|";
-                        font-weight:400;
-                        padding:0 15px;
+
+            p, a {
+                display: inline-block;
+                margin-top: 12px;
+                margin-bottom: 8px;
+                font-size: 18px;
+
+                &:first-of-type {
+                    &::after {
+                        display: inline;
+                        content: "|";
+                        font-weight: 400;
+                        padding: 0 15px;
                     }
                 }
-                &.profile-experiences-name{
-                    font-weight:700;
+
+                &.profile-experiences-name {
+                    font-weight: 700;
                     text-transform: uppercase;
                 }
             }
-            img{
+
+            img {
                 width: 100%;
                 display: none;
                 max-width: 125px;
             }
+
+            a {
+                color: #15a5f0;
+                font-weight: 500;
+
+                &:hover {
+                    color: #373b49;
+                }
+            }
         }
 
-        .profile-experiences-details{
-            margin-top:0px;
+        .profile-experieces-role {
+            font-weight: 500;
+            font-size: 18px;
+            margin-top: 0px;
+            margin-bottom: 8px;
+        }
+
+        .profile-experiences-details {
+            margin-top: 0px;
         }
     }
-
 }
