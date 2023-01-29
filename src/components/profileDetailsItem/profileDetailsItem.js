@@ -23,6 +23,7 @@ class profileDetailsItem extends Component{
         </div>
         )
     };
+            return (<a href={text} aria-label={ariaLabel}>{text}</a>)
 }
 
 export default profileDetailsItem;
