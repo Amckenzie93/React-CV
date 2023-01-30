@@ -1,8 +1,8 @@
 .profile-listCollection {
 
     h3 {
-        margin-top: 18px;
-        margin-bottom: 8px;
+        margin-top: 24px;
+        margin-bottom: 4px;
     }
 
     ul {
@@ -12,6 +12,10 @@
         -moz-column-count: 3;
         column-count: 3;
         margin: 0px;
+        background: #373b49;
+        color: #fff;
+        border-radius:5px;
+        padding:1.25em;
 
         @media screen and (max-width:620px) {
             -webkit-column-count: 2;
@@ -22,7 +26,8 @@
         li {
             font-size: 16px;
             font-weight: 500;
-            padding-bottom: 6px;
+            border-bottom: 1px solid #ffffff1c;
+            padding: 2px 0;
         }
     }
 }
