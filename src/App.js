@@ -70,15 +70,15 @@ class App extends Component {
                         <div className="margin-bottom-48">
                             <HeadingItem headingType={"h2"} text="Skill set" />
                             <ListCollection
-                                heading="Main technologies:"
+                                heading="Main abilities:"
                                 data={[
-                                    "HTML5", "CSS", "LESS", "SCSS",
-                                    "Javascript", "React", "JQuery", "TypeScript", "SEO", "Web Accessibility",
-                                    "C# (.NET & MVC)", "Web Design", "Web Analysis", "Codebase Manager", "Bootstrap"
+                                    "HTML", "CSS", "LESS", "SCSS",
+                                    "Javascript", "React", "JQuery", "TypeScript", "Web Accessibility", "Web Analysis",
+                                    "C# (.NET & MVC)", , "Codebase Manager", "SEO", "Web Design", "Bootstrap"
                                 ]}
                             />
                             <ListCollection
-                                heading="Exposure to:"
+                                heading="Lesser abilities:"
                                 data={["SQL", "Gulp", "Angular", "Haskell", "Java", "Vue", "Animations", "Wordpress", "PHP"
                                 ]}
                             />
