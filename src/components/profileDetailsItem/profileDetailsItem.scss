@@ -1,35 +1,74 @@
-.profile-details {
-    margin-bottom: 32px;
-    animation: fadeUp .75s ease-in-out forwards;
-    animation-delay: 0.35s;
-    opacity:0;
 
-    h2 {
-        padding-bottom: 10px;
-        margin-bottom: 18px;
-        border-bottom: 3px solid #00b0f0;
-        font-size: 18px;
-        text-transform: uppercase;
-    }
+.profile-details-collection {
 
-    h3 {
-        color: #00b0f0;
-        text-transform: uppercase;
-        margin: 18px 0 4px 0;
-        font-size: 16px;
-        font-weight: 400;
+    @media screen and (max-width:991px) {
+        display: flex;
+        flex-wrap: wrap;
 
-        &:empty {
-            display: none;
+        @media screen and (min-width:620px) {
+            gap: 1em 2em;
+        }
+
+
+        .profile-details {
+            margin-bottom: 24px;
+            box-sizing: border-box;
+            padding: 0em;
+            flex: 1 1 30%;
+
+            h3 {
+                margin: 12px 0 0px 0;
+            }
         }
     }
 
-    p {
-        margin: 0 0 8px 0;
+    @media screen and (max-width:620px) {
+        .profile-details {
+            flex-basis: 100%;
+
+            &:last-of-type {
+                display: none;
+            }
+        }
     }
 
-    a{
-        color:#fff;
+    .profile-details {
+        margin-bottom: 32px;
+        animation: fadeUp .75s ease-in-out forwards;
+        animation-delay: 0.35s;
+        opacity: 0;
+
+        > div:not(.heading) {
+            line-height: 20px;
+        }
+
+        h2 {
+            padding-bottom: 10px;
+            margin-bottom: 18px;
+            border-bottom: 3px solid #00b0f0;
+            font-size: 18px;
+            text-transform: uppercase;
+        }
+
+        h3 {
+            color: #00b0f0;
+            text-transform: uppercase;
+            margin: 18px 0 0 0;
+            font-size: 16px;
+            font-weight: 400;
+
+            &:empty {
+                display: none;
+            }
+        }
+
+        p {
+            margin: 0 0 8px 0;
+        }
+
+        a {
+            color: #fff;
+        }
     }
 }
 
@@ -38,8 +77,9 @@
         transform: translateY(30%);
         opacity: 0;
     }
-    60%{
-        opacity:1;
+
+    60% {
+        opacity: 1;
     }
 
     100% {

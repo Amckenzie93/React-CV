@@ -1,24 +1,26 @@
-.profile-listCollection{
-    margin-bottom:32px;
+.profile-listCollection {
 
-    .heading{
-        text-transform: uppercase;
-        border-bottom: 3px solid #000;
-
-        h2{
-            margin: 0 0 8px 0;
-        }
+    h3 {
+        margin-top: 18px;
+        margin-bottom: 8px;
     }
 
-    ul{
+    ul {
         list-style: none;
         padding: 0;
         -webkit-column-count: 3;
         -moz-column-count: 3;
         column-count: 3;
-        
-        li{
-            font-size:16px;
+        margin: 0px;
+
+        @media screen and (max-width:620px) {
+            -webkit-column-count: 2;
+            -moz-column-count: 2;
+            column-count: 2;
+        }
+
+        li {
+            font-size: 16px;
             font-weight: 500;
             padding-bottom: 6px;
         }
