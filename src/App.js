@@ -25,7 +25,7 @@ class App extends Component {
 
                         <ProfileImage image={"./Assets/Adam Mckenzie.jpg"} imageAlt={"Photograph of Adam Mckenzie."} />
 
-                        <ProfileName />
+                        <ProfileName name={"Adam Mckenzie"} role={"Senior Web Developer"} />
                         <div className="profile-details-collection">
                             <ProfileDetailsItem
                                 heading={"Contact Details"}
@@ -82,7 +82,6 @@ class App extends Component {
                                 ]}
                             />
                         </div>
-
                         <Experiences
                             heading={"Experience"}
                             jobs={[
@@ -121,10 +120,7 @@ class App extends Component {
                                     text: ["As a software tester and a junior web developer as part of a development team, I completed front and back end adhoc tasks; creating, implementing, and fixing multiple eCommerce driven websites alongside the testing of both cloud based management software ‘Inforgen’ and the clients’ websites through all stages of development"]
                                 },
                             ]} />
-
-
                         <p className="copyright">© Copyright Adam Mckenzie 2023 | powered by React.js</p>
-
                     </main>
                 </div>
             </div>

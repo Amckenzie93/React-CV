@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import './profileImage.scss';
 
 class ProfileImage extends Component {
@@ -6,7 +6,7 @@ class ProfileImage extends Component {
     constructor() {
         super();
         this.state = {};
-      }
+    }
 
     render() {
         return (
