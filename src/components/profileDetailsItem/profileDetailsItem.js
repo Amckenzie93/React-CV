@@ -34,7 +34,7 @@ class profileDetailsItem extends Component {
             return (<p>{text}<span className="phone"></span></p>);
         }
         else if (type === "link") {
-            return (<a href={text} aria-label={ariaLabel} target="_blank" rel="noopener noreferrer">{text}</a>)
+            return (<a href={"//"+text} aria-label={ariaLabel} target="_blank" rel="noopener noreferrer">{text}</a>)
         }
         else {
             return (<p>{text}</p>);
