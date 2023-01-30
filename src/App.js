@@ -16,13 +16,10 @@ class App extends Component {
     }
 
     render() {
-            window.onbeforeunload = function () {
-                window.scrollTo(0, 0);
-            }
-        
+        window.history.scrollRestoration = "manual" 
+
             return (
                 <div className="App">
-
                     <div className="two-column">
                         <aside className="col">
 

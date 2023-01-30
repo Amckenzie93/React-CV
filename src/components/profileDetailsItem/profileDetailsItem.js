@@ -26,13 +26,13 @@ class profileDetailsItem extends Component{
 
     //could handle linked mailto and phone psuedo but users always find this spammy and dont use anyway... span added for later button addition
     isEmailOrPhone = (type, text, ariaLabel) => {
-        if (type == "email") {
-            return (<p>{text}<span class="email"></span></p>);
+        if (type === "email") {
+            return (<p>{text}<span className="email"></span></p>);
         }
-        else if (type == "phone") {
-            return (<p>{text}<span class="phone"></span></p>);
+        else if (type === "phone") {
+            return (<p>{text}<span className="phone"></span></p>);
         }
-        else if (type == "link") {
+        else if (type === "link") {
             return (<a href={text} aria-label={ariaLabel} target="_blank">{text}</a>)
         }
         else {

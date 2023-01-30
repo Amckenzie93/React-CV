@@ -1,3 +1,10 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
 .App {
     background: #525659;
     color: #fff;
@@ -26,7 +33,7 @@
         box-shadow: 0px 6px 10px 1px rgba(0,0,0,0.43);
     }
 
-    aside{
+    aside {
         max-width: 300px;
         background: #373b49;
         z-index: 10;
@@ -40,8 +47,8 @@
         opacity: 0;
         animation-delay: 0.7s;
         animation-name: slideRight;
-        animation-duration:.8s;
-        animation-fill-mode:forwards;
+        animation-duration: .8s;
+        animation-fill-mode: forwards;
     }
 }
 
@@ -59,12 +66,13 @@
     0% {
         transform: translateX(-100vw);
     }
-    30%{
-        opacity:1;
+
+    30% {
+        opacity: 1;
     }
 
     100% {
         transform: translateY(0%);
-        opacity:1;
+        opacity: 1;
     }
 }
