@@ -20,7 +20,7 @@ class experiences extends Component{
                         <div className="profile-experiences-company-heading">
                             <img src={job.logo} alt={job.logoAlt}/>
                             <p className="profile-experiences-name">{job.Company}</p>
-                        <a className="profile-experiences-website" href={"https://" + job.website} aria-label={job.ariaLabel} target="_blank">{job.website}</a>
+                        <a className="profile-experiences-website" href={"https://" + job.website} aria-label={job.ariaLabel} target="_blank" rel="noopener noreferrer">{job.website}</a>
                             <p className="profile-experiences-year">{job.year}</p>
                     </div>
                     <p className="profile-experieces-role">{job.position}</p>
