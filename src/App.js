@@ -74,7 +74,7 @@ class App extends Component {
                                 data={[
                                     "HTML", "CSS", "LESS", "SCSS",
                                     "Javascript", "React", "JQuery", "TypeScript", "Web Accessibility", "Web Analysis",
-                                    "C# (.NET & MVC)", , "Codebase Manager", "SEO", "Web Design", "Bootstrap"
+                                    "C# (.NET & MVC)", "Codebase Manager", "SEO", "Web Design", "Bootstrap"
                                 ]}
                             />
                             <ListCollection
