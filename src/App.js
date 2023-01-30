@@ -62,7 +62,7 @@ class App extends Component {
                     <main className="col">
                         <TextBody heading={"Bio"}
                             text={[
-                                "With almost 10 years’ commercial experience working within the web industry and a first class honours degree in software development, I have taken on a new challenge in becoming a lead front end developer, applying the knowledge I have soaked up over the years including Responsive Web Development, Accessibility, Web interactions and animation, and many more. I enjoy the ability to do so whilst keeping and maintaining a clean codebase utilising modern tech stacks.",
+                                "With almost 10 years’ commercial experience working within the web industry and a first class honours degree in software development, I have taken on a new challenge in becoming a lead front end developer, applying the knowledge I have soaked up over the years including Responsive Web Development, Accessibility, Web interactions and animation, and many more. I enjoy the ability to do so whilst maintaining a clean codebase utilising modern tech stacks such as CSS Preprocessors, Typescript, and React.",
                                 "One of my favorite aspects in what I do, and what I consider myself lucky in, is being able to offer help and support to others in my field - I take no greater joy and am honoured by the fact I can help those in areas I struggled to grasp over the years, and find myself having a meaningful impact on peoples careers."
                             ]}
 
@@ -95,8 +95,10 @@ class App extends Component {
                                     year: "2021 - present",
                                     position: "Lead Front End Developer",
                                     text: ["During the last two years at Forrit ltd, I was promoted as the Lead Front end developer. This has been such an exciting pivotol change bringing a whole myriad of new challenges and opertunities.",
-                                        "explain whats new ... to be written",
-                                        "Recently I built Forrits new public facing website, I encourage you to please do check it out! I used LESS css along with typescript, gulp, and many other tools along side our own inhouse built CMS platform 'Forrit'."
+                                        "As Lead Front End Developer at Forrit I help break down large web builds and migrations into smaller, more manageable pieces of work in which can be picked up and developed by my colleagues at Forrit.",
+                                        "To ensure this is the case I perform full front end analysis, covering off design requirements provided by clients via calls and collaborative boards, in which overall aids in the ability to make the correct front end technology choices to best meet the needs of the project. By taking the time to analyse client requests I am able to point out potential flaws and improvements earlier on in the phase of work before development has begun. Doing so then allows me to share resolutions in which better fit the needs of the end user and save time overall.",
+                                        "Whilst performing this role I also thrive and take great pleasure in helping others within my organisation, offering support to colleagues on a variety of different technology stacks along with sharing internal knowledge I have learnt over time within the company across various different projects.",
+                                        "Recently I built the new Forrit  website, which I encourage you to check out! I used LESS css along with typescript, gulp, and many other tools in connection with our own  CMS platform, Forrit One."
                                     ]
                                 },
                                 {
