@@ -32,6 +32,7 @@ class App extends Component {
                                 items={[
                                     { heading: "Email", text: "Adam.Mckenzie93@gmail.com", hasFlag: "email" },
                                     { heading: "Phone", text: "07956 760640", hasFlag: "phone" },
+                                    { heading: "Location", text: "Edinburgh", hasFlag: "Location" },
                                     { heading: "GitHub", text: "https://github.com/Amckenzie93/", hasFlag: "link", ariaLabel: "Follow this link to Adam Mckenzie's GitHub profile." },
                                 ]}
                             />
