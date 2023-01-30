@@ -1,27 +1,28 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import './profileDetailsItem.scss';
 import HeadingItem from '../headingItem/headingItem.js'
 
-class profileDetailsItem extends Component{
+class profileDetailsItem extends Component {
 
     constructor() {
         super();
         this.state = {};
-      }
+    }
 
     render() {
-        return(
-        <div className="profile-details">
-            <HeadingItem headingType={"h2"} text={this.props.heading} />
+        return (
+            <div className="profile-details">
+                <HeadingItem headingType={"h2"} text={this.props.heading} />
 
-            {this.props.items.map((item,index) => {
-                return <div key={index}>
+                {this.props.items.map((item, index) => {
+                    return <div key={index}>
                         <HeadingItem headingType={"h3"} text={item.heading} />
-                    {this.isEmailOrPhone(item.hasFlag, item.text, item.ariaLabel)}
+                        {this.isEmailOrPhone(item.hasFlag, item.text, item.ariaLabel)}
                     </div>
-            })}           
-        </div>
+                })}
+            </div>
         )
+
     };
 
     //could handle linked mailto and phone psuedo but users always find this spammy and dont use anyway... span added for later button addition
