@@ -14,8 +14,8 @@
         margin: 0px;
         background: #373b49;
         color: #fff;
-        border-radius:5px;
-        padding:1.25em;
+        border-radius: 5px;
+        padding: 1.25em;
 
         @media screen and (max-width:620px) {
             -webkit-column-count: 2;
@@ -28,6 +28,14 @@
             font-weight: 500;
             border-bottom: 1px solid #ffffff1c;
             padding: 2px 0;
+
+            &:before {
+                content: '-';
+                display: inline-block;
+                padding-right: 10px;
+                margin-left: 0px;
+                color: #00afef;
+            }
         }
     }
 }
