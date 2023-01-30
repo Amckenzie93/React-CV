@@ -62,7 +62,7 @@ class App extends Component {
                     <main className="col">
                         <TextBody heading={"Bio"}
                             text={[
-                                "With almost 10 years’ commercial experience working within the web industry and a first class honours degree in software development, I have taken on a new challenge in becoming a lead front end developer, applying the knowledge I have soaked up over the years including Responsive Web Development, Accessibility, Web interactions and animation, and many more. I enjoy the ability to do so whilst maintaining a clean codebase utilising modern tech stacks such as CSS Preprocessors, Typescript, and React.",
+                                "With almost 10 years’ commercial experience working within the web industry and a first class honours degree in software development, I have taken on a new challenge in becoming a lead front end developer, applying the knowledge I have accrued up over the years including Responsive Web Development, Accessibility, Web interactions and animation, and many more. I enjoy the ability to do so whilst maintaining a clean codebase utilising modern tech stacks such as CSS Preprocessors, Typescript, and React.",
                                 "One of my favourite aspects in what I do, and what I consider myself lucky in, is being able to offer help and support to others in my field - I take no greater joy and am honoured by the fact I can help those in areas I struggled to grasp over the years, and find myself having a meaningful impact on peoples careers."
                             ]}
 
