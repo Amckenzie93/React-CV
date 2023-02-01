@@ -62,8 +62,8 @@ class App extends Component {
                     <main className="col">
                         <TextBody heading={"Bio"}
                             text={[
-                                "With almost 10 years’ commercial experience working within the web industry, and a first class honours degree in software development, I have taken on a new challenge in becoming a lead front end developer. In this role I apply the knowledge I have accrued over the years including Responsive Web Development, Accessibility, Javascript frameworks, animations , and much more. I enjoy being able to do so whilst maintaining a clean codebase, utilising modern tech stacks such as CSS Preprocessors, Typescript, and React.",
-                                "I take great joy in being able to offer help and support to others in my field, and am honoured by the fact that I can now help mentor in areas where I have struggled in the past. Having a meaningful impact on other people’s careers is one of my favourite aspects of my job, and I consider myself lucky to have the opportunity to do so."
+                                "With almost 10 years’ commercial experience working within the Agile Web Development sphere, and a first class honours degree in software Engineering, I have taken on a new challenge in becoming a lead front end developer. In this role I apply the knowledge I have accrued over the years including Responsive Web Development, Accessibility, Javascript frameworks, Azure DevOps, Animations, and much more. I enjoy being able to do so whilst maintaining a clean codebase, utilising modern tech stacks such as CSS Preprocessors, Typescript, and React.",
+                                "I take great joy in being able to offer help and support to others in my field, and am honoured by the fact that I can now help mentor in areas where I have struggled in the past. Having a meaningful impact on other people’s careers is one of my favourite aspects of my job, and I consider myself lucky to have the opportunity to do so. I now seek further opportunities to learn and advance my career to the next level."
                             ]}
 
                         />
@@ -79,7 +79,7 @@ class App extends Component {
                             />
                             <ListCollection
                                 heading="Secondary skills:"
-                                data={["SQL", "Gulp", "Angular", "Haskell", "Java", "Vue", "Animations", "Wordpress", "PHP"
+                                data={["SQL", "Gulp", "Angular", "Azure DevOps", "Java", "Vue", "Animations", "Wordpress", "Haskell"
                                 ]}
                             />
                         </div>
